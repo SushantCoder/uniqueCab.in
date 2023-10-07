@@ -1,0 +1,480 @@
+/* .navbar{
+    width: 100vw;
+    height: 100px;
+    border: 2px solid black;
+
+} */
+
+
+
+
+/* main */
+  .main-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main{
+    width: 40%;
+    height: 70vh;
+    /* border: black 2px solid; */
+    margin-left: 6vw;
+
+  }
+
+  #text-content{
+    font-size: 2vw;
+    padding: 1vw;
+  }
+
+
+  .main-headings{
+   
+    padding-left: 20px;
+  }
+  .callButton{
+   
+    width: 12vw;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 35%;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #F9C23C;
+    border-radius: 20%;
+    
+    
+  }
+ .callbtn{
+  text-decoration: none;
+  font-size: 4vh;
+  margin-top:10vh;
+  color: white;
+  
+ }
+
+/* main */
+
+/* BestOneWayCab */
+#BestOneWayCab{
+  height: 8vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(33, 12, 154, 0.482),rgb(0, 0, 0)) ; */
+  background-color: #F9C23C;
+  box-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+
+
+/* @media screen and (max-width: 550px) {
+  #BestOneWayCab {
+    height: 350px;
+  }
+  #textcab{
+    top: 125px;
+  }
+} */
+
+/* @keyframes example {
+  from {
+    color: #ffffff;
+    text-shadow: 10px 10px 10px black, -5px -5px 100px blue;
+  }
+  to {
+
+    color: #90a2c6; 
+    top:0px;
+  }
+}  */
+
+/* OUR OFFERING */
+
+/* #ourOffering{
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(62, 45, 158, 0.447);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+  
+} */
+/* #textoffering{
+  font-size: 40px;
+  font-size: 4.5vw;
+  color: #ffffff;
+} */
+/* .NormalText{
+  font-size: 30px;
+  font-size: 3.0vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+  margin-top: 2vh;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 50px;
+  background: rgb(20, 19, 19);
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  align-items: center;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: rgb(239, 241, 241);
+  align-items: center;
+}
+.services{
+  text-align: center;
+  margin-top: 7%;
+}
+
+#marqee{
+  color: rgb(244, 246, 238);
+  font-size: 5vh;
+}
+
+#services-heading{
+  font-size: 5vw;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+
+/* Features */
+
+
+.serHeading > h1{
+  font-size: 3vw;
+ animation: fadeIn 8s;
+ text-align: center;
+ color: rgb(175, 134, 175);
+}
+@keyframes fadeIn {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+/* #serintro{
+  text-align: center;
+  font-size: 2vw;
+  padding: 2vw;
+} */
+#ser-section{
+  padding: 8vw;
+  padding-left: 16%;
+  display: grid;
+  gap: 10%;
+  grid-template-columns: 40% 40% ;
+  
+}
+.ser-points{
+  
+  /* border: 2px solid black; */
+  height: 18vw;
+  padding: 2vw;
+  /* background: linear-gradient(to bottom right , white ,white,white,rgb(246, 239, 239),rgb(245, 238, 238),rgb(206, 189, 206), rgb(167, 170, 167));  */
+  /* z-index: 1; */
+  /* border-bottom: 4px solid plum ;      */
+  border-bottom: 6px solid rgb(15, 14, 15);
+  border-radius: 2%;
+  background-color: #F9C23C;
+}
+
+/* #dev-icon{
+  border: 2px soild blue;
+  width: 50%;
+  height: 50%;
+} */
+#dev-icon{
+  
+  height:6vw;
+  width: 6vw;
+  margin: auto;
+
+}
+.ser-points-para{
+  font-size: 1vw;
+  text-align: center;
+}
+.ser-points-para :hover{ 
+  font-size: 2vw;
+}
+
+@media screen and (max-width:950px){
+
+  #ser-section{
+  margin-left:5%;
+  /* padding: 8vw; */
+  /* padding-left: 16%; */
+  display: grid;
+  gap: 5%;
+  grid-template-columns: 90%;
+}
+
+.ser-points-para{
+  font-size: 3vw;
+  text-align: center;
+}
+.ser-points-para :hover{ 
+  font-size: 4vw;
+}
+
+.ser-points{
+  
+  /* border: 1px solid black; */
+  height: 34vw;
+  padding: 2vw;
+  background: linear-gradient(to bottom right , white ,white,white,rgb(246, 239, 239),rgb(245, 238, 238),rgb(206, 189, 206), rgb(167, 170, 167)); 
+  /* z-index: 1; */
+  /* border-bottom: 4px solid plum ;      */
+  border-bottom: 4px solid plum;
+  border-radius: 2%;
+}
+#dev-icon{
+  height:8vw;
+  width: 8vw;
+  margin: auto;
+}
+}
+
+/* Features */
+
+.float{
+	position:fixed;
+	width:10vh;
+	height:10vh;
+	bottom:40px;
+	right:40px;
+	/* background-color:rgb(249, 246, 246); */
+	/* color:#1c1a1a; */
+	border-radius:50px;
+	text-align:center;
+	/* box-shadow: 2px 2px 3px #999; */
+}
+
+#floating-whatsapp{
+	margin-top:22px;
+}
+
+
+/* <!-- About us & Contact Info --> */
+
+.aboutandcontact{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vw;
+}
+
+.aboutandcontact-items{
+  margin-left: 7%;
+  border-radius: 2%;
+  border: 2px solid black;
+  width: 40%;
+  height: 515px;
+  text-align: center;
+  padding-top: 2%;
+  background-color: black;
+}
+
+
+.AC-Heading{
+  text-align: center;
+  color: white;
+}
+/* #about-para{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(240, 237, 243);
+  text-align: left;
+  font-size:3vh;
+ } */
+
+.contact-info-content{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  font-size: 2vh;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+#contact-info2{
+  display: none;
+}
+
+/* <!-- About us & Contact Info --> */
+
+/* footer */
+
+#foot{
+    background-color:rgb(19, 19, 19);
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+  }
+  .foot-content{
+    display: flex;
+    flex-direction: row;
+    color: white
+  }
+  
+  #web-name{
+    margin-top:16px;
+  }
+  #copy-right{
+    margin: auto;
+  }
+  .socio-logo{
+    display: flex;
+    width:30px;
+    height:30px;
+    margin-top: 12px;
+    padding-right: 10px;
+  }
+  #socio{
+    float: right;
+    margin-right: 20px;
+  }
+ .socio-logo{
+    margin-right:15px;
+  }
+  #foot-ws{
+    text-decoration: none;
+    color:white;
+    margin-left: 2vw;
+    
+  }
+
+  @media screen and (max-width:650px){
+    #foot{
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .foot-content{
+      margin: auto;
+    }
+    #socio{
+      margin-bottom: 18px;
+      padding-right: 20vw;
+    }
+    #copy-right{
+      padding-left: 18px;
+    }
+
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .main{
+        width: 90%;
+        height: 40vh;
+        /* border: black 2px solid; */
+        margin-left: 6vw;
+    
+      }
+      #main-right{
+        height: 80%;
+      }
+
+      .callButton{
+        border: 2px solid black;
+        width: 30%;
+        height: 10%;
+        margin-top: 2vh;
+        margin-left: 35%;
+        text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        padding-bottom: 2%;
+        /* padding-top: 1%; */
+
+        
+        
+      }
+     .callbtn{
+      text-decoration: none;
+      font-size: 15px;
+      margin-top:2px;
+      color: rgb(207, 211, 207);
+      
+     }
+
+
+     .services{
+     
+      text-align: center;
+      margin-top: 25%;
+    }
+    .ser-points{
+      background: #F9C23C;
+      border: black;
+    }
+
+    .float{
+      height: 50px;
+      width: 50px;
+    }
+
+    .aboutandcontact{
+      display: flex;
+      flex-direction: column;
+      margin-top: 25vh;
+    }
+
+    .aboutandcontact-items{
+       margin-top: 5vh;
+       margin-left: 15%;
+       border: 2px solid black;
+       width: 70%;
+       height: 390px;
+       padding-top: 2%;
+       
+     }
+     
+     #about-para{
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: left;
+      font-size: smaller;
+     }
+
+     .AC-Heading{
+       text-align: center;
+     }
+
+
+     .contact-info-content{
+         margin-top: 25px;
+         font-size: 13px;
+     }
+
+     #contact-info1{
+      display: none;
+     }
+     #contact-info2{
+      display: block;
+     }
+     
+
+  }
+
+  /* footer */

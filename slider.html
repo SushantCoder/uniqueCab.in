@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+            * { box-sizing: border-box; }
+
+    body { font-family: sans-serif; }
+
+    .carousel {
+    background: #EEE;
+    }
+
+    .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+    }
+
+    /* cell number */
+    /* .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+    } */
+
+    </style>
+</head>
+<body>
+    
+
+    
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "autoPlay": true }'>
+    <div class="carousel-cell"><h1 style="color: white;" class="services">One Way Cab Service 🚕</h1></div>
+    <div class="carousel-cell"><h1 style="color: white;" class="services">Holiday packages with Family/Freinds 👨‍👩‍👧‍👦</h1></div>
+    <div class="carousel-cell"><h1 style="color: white;" class="services">Airport Pickup and Drop 🚗</h1></div>
+    <div class="carousel-cell"><h1 style="color: white;" class="services">Ride to another cities | Tour and Travels 🧳</h1></div>
+    <div class="carousel-cell"><h1 style="color: white;" class="services">Variety of cars like Dzire , Innova , Ertiga and many more.... 🚗</h1></div>
+</div>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
